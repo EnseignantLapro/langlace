@@ -9,11 +9,6 @@
     <body>
         <button onclick="mafonction()" id="TEST">Clique moi dessus</button>
         <div id="toto"></div>
-        <?php
-        if (isset($_POST['tata'])){
-            echo $_POST['tata'];
-        }
-        else echo "error";
-        ?>
+       
     </body>
 </html>
